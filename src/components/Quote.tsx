@@ -14,7 +14,7 @@ const Quote = () => {
 
 
     return (
-        <div className="mt-10 px-5 md:px-27.5" >
+        <div className="relative mt-10 md:mt-40 md:pb-40 px-5 md:px-27.5" >
             <div className="text-black text-center font-montserrat text-[35px] font-medium uppercase flex flex-col gap-4">
                 {textLines.map((line, lineIndex) => {
                    
@@ -29,9 +29,9 @@ const Quote = () => {
                 })}
             </div>
 
-            <div className="flex flex-row gap-4 items-center justify-center mt-4">
+            <div className="md:absolute bottom-30 md:right-40 flex flex-row md:flex-row-reverse gap-4 items-center justify-center mt-4">
                 <img src="./images/AD.png" className="w-25" alt="" />
-                <div className="text-normal font-light leading-[110%] text-black w-30">
+                <div className="text-normal font-light leading-[110%] text-black w-30 md:text-right md:w-50">
                     Основатель компании «GOOD WOOD» А. Дубовенко
                 </div>
             </div>

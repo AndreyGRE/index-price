@@ -5,7 +5,7 @@ function Header({ scrollToCardsPrise }: HeaderProps) {
     return (
         <div
             className=" relative  rounded-b-[42px]  overflow-hidden
-                        w-full pt-18 min-h-205 flex flex-col justify-between md:gap-11
+                        w-full pt-8 min-h-190 flex flex-col justify-between md:gap-11
                         bg-linear-to-br from-[#76A39A] via-[#9DB5BE] to-[#C7DBD7]  
                         
         "

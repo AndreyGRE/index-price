@@ -1,6 +1,6 @@
 function Cards() {
     return (
-        <div className="  w-full flex flex-col md:flex-row px-6 md:px-27.5 gap-4 md:gap-8 mt-10.5 pb-6 md:pb-30 bg-[#F9F9F9] pt-10.5 md:pt-12.5 ">
+        <div className="  w-full flex flex-col md:flex-row px-6 md:px-27.5 gap-4 md:gap-8 mt-10.5 pb-6 md:pb-30 bg-[#F9F9F9] pt-10.5 md:pt-30 ">
             <div className="bg-white rounded-2xl px-6 py-8 text-black md:flex-1 md:flex md:flex-col md:gap-5">
                 <div className="flex flex-row items-center justify-between">
                     <div className="md:text-[32px] fount-[500] leading-[120%]">Планируйте <br className=" hidden  md:block" /> бюджет дома</div>
@@ -257,7 +257,7 @@ function Cards() {
                 </div>
             </div>
 
-            <div className="bg-[url('/images/card.png')] w-full min-h-50 bg-cover rounded-2xl md:flex-1"></div>
+            <div className="bg-[url('/images/card.png')] md:bg-[url('/images/cardD.png')] w-full min-h-50 bg-cover rounded-2xl md:flex-1"></div>
         </div>
     );
 }

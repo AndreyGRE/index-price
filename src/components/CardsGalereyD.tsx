@@ -375,7 +375,7 @@ export default function GalleryCards(props: { items: Card[] }) {
                             >
                                 <div className="h-full w-full rounded-2xl overflow-hidden">
                                     <div
-                                        className="h-full w-full bg-cover bg-center px-6 pt-6 pb-8 bg-[url('/images/CardsBgM.png')] flex flex-col justify-between"
+                                        className="h-full w-full bg-cover bg-center px-6 pt-6 pb-8 bg-[url('/images/CardsBgD.png')] flex flex-col justify-between"
                                         style={{
                                             backgroundImage: `url(${item.bgImage})`,
                                         }}
